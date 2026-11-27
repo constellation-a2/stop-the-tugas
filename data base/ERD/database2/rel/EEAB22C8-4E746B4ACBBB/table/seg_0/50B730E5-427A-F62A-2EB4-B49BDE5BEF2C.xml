@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50B730E5-427A-F62A-2EB4-B49BDE5BEF2C" name="PUSH_SUBSCRIPTION">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 15:22:40 UTC</createdTime>
+<generatorID>0870C3C4-F301-FA0F-BFF8-B2B166FAF95B</generatorID>
+<ownerDesignName>database2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="subscription_id" id="5D1AA85C-02D1-A8F8-48A1-D029D31A325B">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 15:22:40 UTC</createdTime>
+<generatorID>A4CDA5C8-378E-D620-207D-938D85B73C7F</generatorID>
+<ownerDesignName>database2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endpoint" id="C3646555-B24C-DFED-EA3F-0ECF6DE201D5">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 15:22:40 UTC</createdTime>
+<generatorID>327EF019-B347-4B26-0DED-CAA1C3698FA1</generatorID>
+<ownerDesignName>database2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p256dh" id="F1889153-C46F-659A-76F7-0DE68D3CE52F">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 15:22:40 UTC</createdTime>
+<generatorID>8AE05CC7-1B30-B377-EF0F-CC436EEC3F0B</generatorID>
+<ownerDesignName>database2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="auth" id="C5773B88-A987-B764-5DA9-A7BE3868E030">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 15:22:40 UTC</createdTime>
+<generatorID>92CBF49E-F543-268B-7844-5FA0144FB37C</generatorID>
+<ownerDesignName>database2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="D3559395-3159-E5DD-1F6A-54E1B2ACA662">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 15:22:40 UTC</createdTime>
+<generatorID>6AB5CC83-DCCF-85C4-28EC-9287437B5A26</generatorID>
+<ownerDesignName>database2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84306A44-1C33-15B3-217E-9665042E3A2E" name="PUSH_SUBSCRIPTION_PK">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 15:22:40 UTC</createdTime>
+<generatorID>814B873E-3DD7-7A59-28A2-93D668DB052D</generatorID>
+<ownerDesignName>database2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D1AA85C-02D1-A8F8-48A1-D029D31A325B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
