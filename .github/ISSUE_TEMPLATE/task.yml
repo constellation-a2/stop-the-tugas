@@ -7,7 +7,6 @@ body:
     id: team
     attributes:
       label: Tim / Workstream PIC
-      multiple: true
       options:
         - Tech Lead (Istikmal)
         - Project Manager (Evan)
