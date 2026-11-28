@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1493598B-AF51-7AE9-ED0A-705F19379A91" name="COURSE">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 04:34:33 UTC</createdTime>
+<ownerDesignName>database2</ownerDesignName>
+<engineerTo>
+<item key="EEAB22C8-B41F-F89A-A5A5-4E746B4ACBBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="course_id" id="B75E437F-FE45-CDCD-6326-255683CB387C">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 04:34:44 UTC</createdTime>
+<ownerDesignName>database2</ownerDesignName>
+<engineerTo>
+<item key="EEAB22C8-B41F-F89A-A5A5-4E746B4ACBBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course_code" id="E7F73479-F81F-466A-D371-747846A1F149">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 04:34:45 UTC</createdTime>
+<ownerDesignName>database2</ownerDesignName>
+<engineerTo>
+<item key="EEAB22C8-B41F-F89A-A5A5-4E746B4ACBBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course_name" id="0CDB9427-258C-5824-C094-561A3A4A2C4E">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 04:34:45 UTC</createdTime>
+<ownerDesignName>database2</ownerDesignName>
+<engineerTo>
+<item key="EEAB22C8-B41F-F89A-A5A5-4E746B4ACBBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3BCE5D5-1850-3CE0-235D-DC962913BCB7" name="COURSE PK">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 04:35:03 UTC</createdTime>
+<ownerDesignName>database2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EEAB22C8-B41F-F89A-A5A5-4E746B4ACBBB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B75E437F-FE45-CDCD-6326-255683CB387C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="86217CFE-F5AD-184C-F593-16763B4A8BDF" name="COURSE_UK_COURSE_CODE">
+<createdBy>HP</createdBy>
+<createdTime>2026-11-26 04:36:51 UTC</createdTime>
+<ownerDesignName>database2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EEAB22C8-B41F-F89A-A5A5-4E746B4ACBBB" value="false"/>
+</engineerTo>
+<newElementsIDs>E7F73479-F81F-466A-D371-747846A1F149</newElementsIDs>
+<usedAttributes>
+<attributeRef>E7F73479-F81F-466A-D371-747846A1F149</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
